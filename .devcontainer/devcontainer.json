@@ -22,7 +22,8 @@
             },
             "extensions": [
                 "fjebaker.vscode-metapost",
-                "emeraldwalk.runonsave"
+                "emeraldwalk.runonsave",
+                "jock.svg"
             ]
         }
     }
