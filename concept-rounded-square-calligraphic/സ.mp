@@ -2,6 +2,8 @@ beginfig(0);
 width:=80;
 rotation:=40;
 
+color glyphcolor; glyphcolor := (.1, .37,.71);
+
 pen calligraphicpen ;
 calligraphicpen := makepen ((0, 0)--(width,0 ) rotated rotation) ;
 
@@ -14,7 +16,7 @@ z5 = (x4 + 50, y4-50);
 z6 = (x5, y0);
 
 pickup calligraphicpen;
-draw z0{left}..z1--z2{up}..z3--z4{right}..z5--z6 withcolor 0.5blue;
+draw z0{left}..z1--z2{up}..z3--z4{right}..z5--z6 withcolor glyphcolor;
 z7 = (x5, y5);
 z8= (x7+50, y4);
 z9= (x8+2.5, y8);
@@ -25,7 +27,7 @@ z13=(x12+25, y12);
 z14=(x13+50, y13+ 50);
 z15=(x14, y14+ 200);
 z16=(x15-50, y4);
-draw z7{up}..z8--z9{right}..z10--z11{down}..z12--z13{right}..z14--z15{up}..z16 withcolor 0.5red;
+draw z7{up}..z8--z9{right}..z10--z11{down}..z12--z13{right}..z14--z15{up}..z16 withcolor glyphcolor;
 
 endfig;
 end

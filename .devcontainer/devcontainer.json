@@ -16,7 +16,7 @@
                         {
                             "match": "\\.mp$",
                             "shell": "bash",
-                            "cmd": "mpost -s 'outputformat:=\"svg\"' -s 'outputtemplate=\"${relativeFile}.svg\"' ${file}"
+                            "cmd": "mpost -s 'outputformat=\"svg\"' -s 'outputtemplate=\"${relativeFile}.svg\"' ${file}"
                         }
                     ]
                 }
