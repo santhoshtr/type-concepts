@@ -1,4 +1,4 @@
-outputtemplate := "%j.svg";
+outputtemplate := "svgs/%j.svg";
 outputformat   := "svg";
 beginfig(0);
 width:=8;
