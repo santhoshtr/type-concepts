@@ -1,5 +1,3 @@
-outputtemplate := "svgs/%j.svg";
-outputformat   := "svg";
 beginfig(0);
 width:=8;
 rotation:=40;

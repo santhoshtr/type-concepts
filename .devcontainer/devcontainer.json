@@ -9,13 +9,14 @@
         "vscode": {
             "settings": {
                 "svg.preview.mode": "svg",
+                "svg.preview.autoShow": true,
                 "workbench.colorTheme": "Nord",
                 "emeraldwalk.runonsave": {
                     "commands": [
                         {
                             "match": "\\.mp$",
                             "shell": "bash",
-                            "cmd": "mpost ${file}"
+                            "cmd": "mpost -s 'outputformat:=\"svg\"' -s 'outputtemplate=\"${relativeFile}.svg\"' ${file}"
                         }
                     ]
                 }

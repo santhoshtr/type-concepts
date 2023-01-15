@@ -1,2 +1,2 @@
-# type-concepts
-Typeface design concepts illustrated using metapost
+# Typeface design concepts illustrated using metapost
+
