@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/ubuntu
 {
-    "name": "weblatex",
+    "name": "metapost-type-concepts",
     "image": "danteev/texlive:latest", // https://github.com/dante-ev/docker-texlive
     "remoteUser": "root", // Do not change this
     "features": {},
@@ -14,7 +14,7 @@
                     "commands": [
                         {
                             "match": "\\.mp$",
-                            "shell": "zsh",
+                            "shell": "bash",
                             "cmd": "mpost ${file}"
                         }
                     ]
