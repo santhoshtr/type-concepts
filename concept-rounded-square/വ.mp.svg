@@ -1,25 +1,7 @@
-%!PS
-%%BoundingBox: 9 9 36 41 
-%%HiResBoundingBox: 9.5 9.5 35.5 40.5 
-%%Creator: MetaPost 2.02
-%%CreationDate: 2023.01.15:1702
-%%Pages: 1
-%%BeginProlog
-%%EndProlog
-%%Page: 1 1
- 0.8 0 0 setrgbcolor 0 1 dtransform truncate idtransform setlinewidth pop
- [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
-newpath 15 10 moveto
-12.23857 10 10 12.23857 10 15 curveto
-10 35 lineto
-10 37.76143 12.23857 40 15 40 curveto
-20 40 lineto
-22.76143 40 25 37.76143 25 35 curveto
-25 15 lineto
-25 12.23857 22.76143 10 20 10 curveto stroke
-newpath 20 10 moveto
-30 10 lineto
-32.76143 10 35 12.23857 35 15 curveto
-35 40 lineto stroke
-showpage
-%%EOF
+<?xml version="1.0"?>
+<!-- Created by MetaPost 2.02 on 2023.01.15:1732 -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="275.000000" height="315.000000" viewBox="0 0 275.000000 315.000000">
+<!-- Original BoundingBox: 15.000000 5.000000 275.000000 315.000000 -->
+  <path d="M70.000000 305.000000C42.385757 305.000000,20.000000 282.614243,20.000000 255.000000L20.000000 55.000000C20.000000 27.385757,42.385757 5.000000,70.000000 5.000000L120.000000 5.000000C147.614243 5.000000,170.000000 27.385757,170.000000 55.000000L170.000000 255.000000C170.000000 282.614243,147.614243 305.000000,120.000000 305.000000" style="stroke:rgb(80.000305%,0.000000%,0.000000%); stroke-width: 10.000000;stroke-linecap: round;stroke-linejoin: round;stroke-miterlimit: 10.000000;fill: none;"></path>
+  <path d="M120.000000 305.000000L220.000000 305.000000C247.614243 305.000000,270.000000 282.614243,270.000000 255.000000L270.000000 5.000000" style="stroke:rgb(80.000305%,0.000000%,0.000000%); stroke-width: 10.000000;stroke-linecap: round;stroke-linejoin: round;stroke-miterlimit: 10.000000;fill: none;"></path>
+</svg>
