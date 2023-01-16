@@ -8,10 +8,11 @@ SVGs will be automatically created as soon as you save the metapost file. Openin
 
 Please refer sample .mp files in the repo to get started.
 
+![Screenshot](docs/images/screenshot.png)
+
 ## Creating a font
 
 Creating a font from these svgs require more sophisticated tooling and refactoring. You may refer the following typeface codebases. These typefaces use additional helper functions to automate repeated tasks and have configurations that define how glyphs are created in consisistent manner. And fonts are not just glyphs.
 
 * https://gitlab.com/smc/fonts/Nupuram
 * https://gitlab.com/smc/fonts/Malini
-
